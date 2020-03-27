@@ -40,14 +40,18 @@ def functie(nume):
     d = r.json()
     return d['Answer'][0]['data'] 
 print(functie('fmi.unibuc.ro.'))
+
+CHECK https-ex1.png
 ```
-![alt text] (https://github.com/achimelenaluiza/test2/blob/master/ss1.png)
+![alt text](ss1.png)
 
 2. Executati pe containerul `rt1` scriptul 'simple_flask.py' care deserveste API HTTP pentru GET si POST. Daca accesati in browser [http://localhost:8001](http://localhost:8001) ce observati?
 ```
 Hello World!
+
+CHECK https-ex2.png
 ```
-https-ex2.png
+
 ---
 
 3. Conectați-vă la containerul `docker-compose exec rt2 bash`. Testati conexiunea catre API-ul care ruleaza pe rt1 folosind curl: `curl -X POST http://rt1:8001/post  -d '{"value": 10}' -H 'Content-Type: application/json'`. Scrieti o metoda POST care ridică la pătrat un numărul definit în `value`. Apelați-o din cod folosind python requests.
@@ -59,8 +63,8 @@ def post_method():
     print("valoarea la patrat este: ", am_primit['value'] * am_primit['value'])
     return jsonify({'got_it': 'yes'})
 
+CHECK https-ex3.png
 ```
-http-ex3.png
 ---
 
 4. Urmăriți alte exemple de request-uri pe [HTTPbin](http://httpbin.org/)
