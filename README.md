@@ -41,8 +41,7 @@ def functie(nume):
     return d['Answer'][0]['data'] 
 print(functie('fmi.unibuc.ro.'))
 ```
-![Image](
-file:///home/luizaelenaa/Desktop/Retele/tema-2-achimelenaluiza/ss1.png
+![Image](/tema-2-achimelenaluiza/ss1.png
 )
 
 ---
