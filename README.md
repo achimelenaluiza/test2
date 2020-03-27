@@ -41,7 +41,7 @@ def functie(nume):
     return d['Answer'][0]['data'] 
 print(functie('fmi.unibuc.ro.'))
 ```
-![IMAGINE] (https://github.com/achimelenaluiza/test2/blob/master/ss1.png)
+![alt text] (https://github.com/achimelenaluiza/test2/blob/master/ss1.png)
 
 2. Executati pe containerul `rt1` scriptul 'simple_flask.py' care deserveste API HTTP pentru GET si POST. Daca accesati in browser [http://localhost:8001](http://localhost:8001) ce observati?
 ```
